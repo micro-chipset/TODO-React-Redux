@@ -1,0 +1,22 @@
+.app-wrapper {
+    margin: 2rem auto 0 auto;
+    max-width: 30rem;
+}
+
+.top-panel {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.menu {
+    display: flex;
+    flex: 1 100%;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu__item {
+    position: relative;
+    list-style-type: none;
+}

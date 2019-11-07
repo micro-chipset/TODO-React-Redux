@@ -1,0 +1,17 @@
+.spinner {
+    width: 30px;
+    height: 30px;
+    border: 6px solid rgba(149, 180, 207, 1);
+    border-left-color: rgba(149, 180, 207, 0.6);
+    border-right-color: rgba(149, 180, 207, 0.6);
+
+    border-radius: 100%;
+    animation: load 600ms infinite linear;
+    margin-bottom: 3rem;
+}
+
+@keyframes load {
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,30 @@
+.todo-list-item-edit {
+    margin-top: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.todo-list-item-edit .button, .todo-list-item-edit .form-edit {
+    padding: 0.75rem 1rem;
+    margin: 0 0.1rem;
+    border: 1px solid #B6BEC8;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #596060;
+}
+
+.todo-list-item-edit .button:hover {
+    background-color: #596060;
+    color: #FFFFFF;
+}
+
+.todo-list-item-edit .form-field {
+    flex-grow: 1;
+    margin-right: 5px;
+}
+
+.todo-list-item-edit .form-field {
+    display: flex;
+    flex-direction: column;
+}

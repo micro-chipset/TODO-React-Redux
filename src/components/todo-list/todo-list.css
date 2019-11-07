@@ -1,0 +1,23 @@
+.todo-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-list .todo-list-group-item {
+    padding: .55rem .75rem;
+    border: 1px solid #C3CAD2;
+    margin-bottom: -1px;
+}
+
+.todo-list .todo-list-group-item:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.todo-list .todo-list-group-item:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

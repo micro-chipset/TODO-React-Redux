@@ -1,0 +1,30 @@
+.item-add-form {
+    margin-top: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.item-add-form .button, .item-add-form .form-add {
+    padding: 0.75rem 1rem;
+    border: 1px solid #B6BEC8;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #596060;
+}
+
+.item-add-form .form-field {
+    width: auto;
+    flex-grow: 1;
+    margin-right: 5px;
+}
+
+.item-add-form .button:hover {
+    background-color: #596060;
+    color: #FFFFFF;
+}
+
+.item-add-form .form-field {
+    display: flex;
+    flex-direction: column;
+}
